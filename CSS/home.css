@@ -305,11 +305,11 @@
     perspective: 100px;
 }
 
-img {
+.onhover {
     transition: transform 1%;
 }
 
-img:hover {
+.onhover:hover {
     transform: translate(20px);
 }
 
