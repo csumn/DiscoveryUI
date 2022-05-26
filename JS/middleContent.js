@@ -15,9 +15,12 @@ function appendData(data) {
     console.log(data);
     let innerHtml;
     innerHtml = `<p class = "titleOne"> ${data.TitleLine1}</p>
-            <p class = "titleTwo"> ${data.TitleLine2}</p>
-            <p class = "description"> ${data.Description}</p>
-            <img class = "image1" src = "${data.image1}"/>
-            <img class = "image2" src = "${data.image2}"/>`
-    document.querySelector("#myData").innerHTML = innerHtml;
+    <p class = "titleTwo"> ${data.TitleLine2}</p>
+    <p class = "description"> ${data.Description}</p>
+    <img class = "image1" src = "${data.image1}"/>
+    <img class = "image2" src = "${data.image2}"/> 
+    <img class = "imageBg" src = "${data.imageBg}"/>`
+    document.querySelector("#middle-content").innerHTML = innerHtml;
 }
+
+
