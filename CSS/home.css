@@ -25,6 +25,22 @@
     background-color: rgb(251, 250, 250);
 }
 
+@media screen and (max-width:800px) {
+    body {
+        text-align: center;
+        background-color: green;
+    }
+    .gfg {
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+    }
+    .geeks {
+        color: white;
+    }
+}
+ 
+
 .video1 {
     object-fit: cover;
     height: 100%;
@@ -213,6 +229,7 @@
 }
 
 
+
 /* .container-2 {
     width: 100%;
     height: 100vh;
@@ -336,4 +353,4 @@
 
 .JsPage {
     background-color: rgb(252, 252, 252);
-} */
+}  */

@@ -1,9 +1,10 @@
-fetch('http://localhost:3000/webpagedata')
+// import fetch from 'node-fetch'
+
+fetch('http://localhost:3000/webpagedata1')
     .then(function (response) {
         return response.json();
     })
     .then(function (data) {
-        // console.log(data);
         appendData(data)
     })
     .catch(function (err) {

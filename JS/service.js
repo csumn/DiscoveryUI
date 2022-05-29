@@ -26,7 +26,7 @@ const makeServiceCall = (methodType, url, async, data = null) => {
     });
 }
 
-const getURL = 'http://localhost:3000/webpagedata';
+const getURL = 'http://localhost:3000/webpagedata1';
 
 makeServiceCall('GET', getURL, true)
     .then(responseText => {
@@ -34,3 +34,5 @@ makeServiceCall('GET', getURL, true)
     }).catch(e => {
         console.log(e);
     })
+
+
