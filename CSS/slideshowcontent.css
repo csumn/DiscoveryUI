@@ -4,10 +4,9 @@
     place-items: center;
 }
 
-
 .slider {
     height: 250px;
-    margin: auto;
+    margin: 0%;
     position: relative;
     width: 100%;
     display: grid;
@@ -17,43 +16,33 @@
 
 .slide-track {
     display: flex;
-    width: calc(250px * 18);
-    animation: scroll 10s linear infinite;
-}
-
-/* .slide-track:hover {
-    animation-play-state: paused;
-} */
-
-@keyframes scroll {
-    0% {
-        transform: translate(0);
-    }
-
-    100% {
-        transform: translate(calc(-250px*9));
-    }
+    width: calc(250px * 26);
+    animation: scroll 30s linear infinite;
 }
 
 .slide {
-    height: 100vh;
-    width: 360px;
+    height: 70vh;
+    width: 364px;
     display: flex;
     align-items: center;
-    padding: 15px;
+    padding: 0px;
     perspective: 100px;
 }
 
 
-.touch:hover {
-    position:relative;
-    top:100px;
-    left:-2px;
-    width:350px;
-    height:9vh;
-    display:block;
-    z-index :999px;
-    /* overflow: hidden; */
+.slide:hover {
+    transform: scale(1.01);
+}
+
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-250px*13));
+    }
 }
 
 .slider::before,
@@ -62,7 +51,7 @@
     content: '';
     height: 100%;
     position: absolute;
-    width: 15%;
+    width: 0%;
     z-index: 2;
 }
 
@@ -74,25 +63,25 @@
 .slider::after {
     right: 0;
     top: 0;
-    transform: rotateZ(180deg);
+    transform: rotateZ(90deg);
 }
+
 
 .TitleOfCard {
     position: absolute;
-    top: 407px;
-    left: 43px;
-    font-size: 35px;
-    color: #f7f7f7;
-
+    top: 326px;
+    left: 27px;
+    font-size: 34px;
+    color: #fffefe;
+    white-space: nowrap;
 }
 
-.DescriptionOfCard{
+.DescriptionOfCard {
     position: absolute;
-    top: 471px;
-    left: 44px;
+    top: 383px;
+    left: 27px;
     font-size: 17px;
     color: #fffdfd;
-    letter-spacing: 0px;
+    letter-spacing: 1px;
+    white-space: nowrap;
 }
-
-

@@ -30,16 +30,18 @@
         text-align: center;
         background-color: green;
     }
+
     .gfg {
         font-size: 30px;
         font-weight: bold;
         color: white;
     }
+
     .geeks {
         color: white;
     }
 }
- 
+
 
 .video1 {
     object-fit: cover;

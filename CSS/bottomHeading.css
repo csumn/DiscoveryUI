@@ -1,0 +1,23 @@
+.container-4{
+    /* background-color: rgb(196, 188, 181); */
+    padding: 0%;
+}
+.bottom-heading-titleOne {
+    font-size: 42px;
+    position: absolute;
+    left: 133px;
+    top: 2422px;
+    letter-spacing: 1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.bottom-heading-titleTwo {
+    position: absolute;
+    left: 133px;
+    top: 2468px;
+    font-size: 40px;
+    position: absolute;
+    font-family: initial;
+    letter-spacing: 3px;
+    font-family: 'Courier New', Courier, monospace;
+}
