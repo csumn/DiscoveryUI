@@ -15,6 +15,7 @@ function appendData(data) {
     console.log(data);
     let innerHtml;
     innerHtml = `<p class = "bottom-heading-titleOne"> ${data.TitleLine1}</p>
-    <p class = "bottom-heading-titleTwo"> ${data.TitleLine2}</p>`
+    <p class = "bottom-heading-titleTwo"> ${data.TitleLine2}</p>
+    <p class = "bottom-heading-Description"> ${data.smallDescription}</p>`
     document.querySelector("#bottom-heading").innerHTML = innerHtml;
 }
